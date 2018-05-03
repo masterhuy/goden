@@ -66,6 +66,10 @@
 			<h3>Follow Us</h3>
 			<p>Hi you, sign up our newsletter and  get 30% off for your next purchase!</p>
 		</div>
+		<div class="textnews_h6 addon-title">
+			<h3>Don’t Miss Out!</h3>
+			<p>Sign up for get news, our offers, promotions and receive 20% off for your next purchase!</p>
+		</div>
 		<div class="news_content">
         	<div  class="block_content block_c_right">
 				<form action="{$urls.pages.index}#footer" method="post">

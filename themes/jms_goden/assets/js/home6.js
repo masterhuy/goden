@@ -1,52 +1,27 @@
-jQuery(function ($) {
-   jQuery(function ($) {
-    "use strict";
-	$('#jms_ajax_search > a').click(function (event) {
-		$('.jms_ajax_search').toggleClass('open');	
-	});
-	$('.collection_block').css('height',$( window ).height());
-});
-});
- /*fixed menu*/
-$(document).ready(function() {
-	$(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-	
-        if ($("body").hasClass("home_6")&& scroll > 0 && $(window).width() >991) {
-            $('.header_top').addClass('navbar-fixed-top');
-			
-        } else {
-            $('.header_top').removeClass('navbar-fixed-top');
-			
-			
-        }
-    });
-	
-});
 $(window).load(function(){
-		if($('.slider').length > 0)
-		$('.slider').fractionSlider({	
-			'slideTransition' : jmsslider_trans,
-			'slideEndAnimation' : jmsslider_end_animate,
-			'transitionIn' : jmsslider_trans_in,
-			'transitionOut' : jmsslider_trans_out,
-			'fullWidth' : jmsslider_full_width,
-			'delay' : jmsslider_delay,
-			'timeout' : jmsslider_duration,
-			'speedIn' : jmsslider_speed_in,
-			'speedOut' : jmsslider_speed_out,
-			'easeIn' : jmsslider_ease_in,
-			'easeOut' : jmsslider_ease_out,
-			'controls' : jmsslider_navigation,
-			'pager' : jmsslider_pagination,
-			'autoChange' : jmsslider_autoplay,
-			'pauseOnHover' : jmsslider_pausehover,
-			'backgroundAnimation' : jmsslider_bg_animate,
-			'backgroundEase' : jmsslider_bg_ease,
-			'responsive' : jmsslider_responsive,
-			'dimensions' : jmsslider_dimensions,
-			'fullscreen' : true
-		});
+	if($('.slider').length > 0)
+	$('.slider').fractionSlider({	
+		'slideTransition' : jmsslider_trans,
+		'slideEndAnimation' : jmsslider_end_animate,
+		'transitionIn' : jmsslider_trans_in,
+		'transitionOut' : jmsslider_trans_out,
+		'fullWidth' : jmsslider_full_width,
+		'delay' : jmsslider_delay,
+		'timeout' : jmsslider_duration,
+		'speedIn' : jmsslider_speed_in,
+		'speedOut' : jmsslider_speed_out,
+		'easeIn' : jmsslider_ease_in,
+		'easeOut' : jmsslider_ease_out,
+		'controls' : jmsslider_navigation,
+		'pager' : jmsslider_pagination,
+		'autoChange' : jmsslider_autoplay,
+		'pauseOnHover' : jmsslider_pausehover,
+		'backgroundAnimation' : jmsslider_bg_animate,
+		'backgroundEase' : jmsslider_bg_ease,
+		'responsive' : jmsslider_responsive,
+		'dimensions' : jmsslider_dimensions,
+		'fullscreen' : true
+	});
 });
 jQuery(function ($) {
     "use strict";
@@ -77,7 +52,7 @@ jQuery(function ($) {
 				}
 			},
 			rtl: rtl,
-			margin:30,
+			margin:20,
 			nav: p_nav,
 			dots: p_pag,
 			autoplay: auto_play_carousel,

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-24 04:46:58
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-02 03:03:26
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:311925ad84692593cf3-12526928%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl',
-      1 => 1524559615,
+      1 => 1525244326,
       2 => 'module',
     ),
   ),
@@ -50,6 +50,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="textnews_h3 addon-title">
 			<h3>Follow Us</h3>
 			<p>Hi you, sign up our newsletter and  get 30% off for your next purchase!</p>
+		</div>
+		<div class="textnews_h6 addon-title">
+			<h3>Don’t Miss Out!</h3>
+			<p>Sign up for get news, our offers, promotions and receive 20% off for your next purchase!</p>
 		</div>
 		<div class="news_content">
         	<div  class="block_content block_c_right">

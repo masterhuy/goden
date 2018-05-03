@@ -65,7 +65,7 @@ jQuery(function ($) {
 					<div class="categories-wrapper">
 						<div class="categoy-image">
 							<a href="{$categoryLink nofilter}">
-								<img src="{$img_cat_dir nofilter}{$category.id_category nofilter}_thumb.jpg" alt="{$category.name nofilter}" title="{$category.name nofilter}" class="img-responsive"/>
+								<img src="{$img_cat_dir nofilter}{$category.id_category nofilter}.jpg" alt="{$category.name nofilter}" title="{$category.name nofilter}" class="img-responsive"/>
 							</a>
 						</div>
 						<div class="category-info">

@@ -56,7 +56,10 @@
     font-family: "ultralight";
     src: url('../fonts/SF-UI-Display-Ultralight.otf');
 }
-
+@font-face {
+    font-family: "quentin";
+    src: url('../fonts/Quentin.ttf');
+}
 
 html, html a {
   -webkit-font-smoothing: antialiased; }
@@ -5254,5 +5257,19 @@ div.jms-megamenu .nav > li {
   background-position: center !important;
 }
 #social_block + img{
+  display: none;
+}
+.home_1 .shoppingcart-box .cart-title,
+.home_2 .shoppingcart-box .cart-title,
+.home_3 .shoppingcart-box .cart-title,
+.home_4 .shoppingcart-box .cart-title,
+.home_5 .shoppingcart-box .cart-title{
+  display: none;
+}
+.home_1 #newsletter_block_left .textnews_h6,
+.home_2 #newsletter_block_left .textnews_h6,
+.home_3 #newsletter_block_left .textnews_h6,
+.home_4 #newsletter_block_left .textnews_h6,
+.home_5 #newsletter_block_left .textnews_h6{
   display: none;
 }

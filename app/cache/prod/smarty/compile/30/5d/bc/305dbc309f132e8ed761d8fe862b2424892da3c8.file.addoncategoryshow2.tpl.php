@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-19 05:19:05
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-26 22:37:53
          compiled from "D:\xampp\htdocs\jms_goden\modules\jmspagebuilder\views\templates\hook\addoncategoryshow2.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:285535ad85f097b1c44-68918199%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '305dbc309f132e8ed761d8fe862b2424892da3c8' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_goden\\modules\\jmspagebuilder\\views\\templates\\hook\\addoncategoryshow2.tpl',
-      1 => 1523458732,
+      1 => 1524796669,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5ad85f09846376_22442628',
   'variables' => 
   array (
     'categories' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_cat_dir' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad85f09846376_22442628',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5ad85f09846376_22442628')) {function content_5ad85f09846376_22442628($_smarty_tpl) {?>
 <script type="text/javascript">
@@ -78,7 +78,7 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
 ">
 								<img src="<?php echo $_smarty_tpl->tpl_vars['img_cat_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['category']->value['id_category'];?>
-_thumb.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['category']->value['name'];?>
+.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['category']->value['name'];?>
 " title="<?php echo $_smarty_tpl->tpl_vars['category']->value['name'];?>
 " class="img-responsive"/>
 							</a>
