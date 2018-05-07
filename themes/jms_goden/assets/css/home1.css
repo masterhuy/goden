@@ -1,4 +1,6 @@
-
+.jms-popup-overlay{
+    display: none !important;
+}
 /*topbar*/
 .topbar{
     border-bottom: 1px solid #efeff1;
@@ -9,12 +11,12 @@
 .topbar .jms_ajax_search.type2{
     display: none;
 }
-.topbar .currency-info.type2,
-.topbar .currency-info.type3{
+.currency-info.type2,
+.currency-info.type3{
     display: none;
 }
-.topbar .languages-info.type2,
-.topbar .languages-info.type3{
+.languages-info.type2,
+.languages-info.type3{
     display: none;
 }
 .topbar .icon-magnifier {
@@ -552,5 +554,186 @@ footer {
 .popup_home .btn-h3, .popup_home .textnews_h3{
     display: none;
 }
+#off-canvas-menu #search_widget {
+    margin-top: 25px;
+}
+#search_widget button {
+    padding: 0px 20px;
+    border: 0;
+}
+#off-canvas-menu #_desktop_user_info .type2{
+    display: none;
+}
+#off-canvas-menu #_desktop_user_info{
+    margin-top: 30px;
+}
+@media (max-width: 1366px){
+    .hot-sale .btn-shopnow{
+        font-size: 23px;
+    }
+    .hot-sale .countdown-box {
+        padding-left: 0;
+    }
+}
+@media (max-width: 1199px){
+    .newsletter .inputNew.popup{
+        min-width: 250px;
+    }
+    .countdown.is-countdown {
+        margin-bottom: 45px;
+    }
+    div.jms-megamenu .nav > li {
+        padding: 0 20.5px;
+    }
+    .header .logo .addon-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 991px){
+    .feature-category .layout-column:not(:first-child){
+        margin-bottom: 20px;
+    }
+    .footer-bot .container > .row{
+        display: block;
+    }
+    .footer-bot .left{
+        text-align: center;
+    }
+    .footer-bot .right .addon-box {
+        float: none;
+    }
+    .footer-bot .right{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .newsletter #newsletter_block_left > .block_content{
+        display: block;
+        padding: 8px 0 15px;
+    }
+    .newsletter #newsletter_block_left .textnews_h1{
+        text-align: center;
+    }
+    .newsletter .news_content {
+        margin: 0 100px;
+    }
+    .hot-sale .countdown-box{
+        display: block;
+    }
+    .hot-sale .customs{
+        display: flex;
+        justify-content: center;
+    }
+    .hot-sale .content {
+        margin-top: 25px;
+        padding-bottom: 45px;
+    }
+    .hot-sale .content {
+        margin-left: 0;
+    }
+    .header .logo{
+        order: 2;
+    }
+    .header .menu{
+        order: 1;
+    }
+    .header .shoppingcart{
+        order: 3;
+    }
+    .topbar{
+        display: none;
+    }
+    .header{
+        padding: 20px 0;
+    }
+    .fraction-slider .prev, .fraction-slider .next {
+        width: 50px;
+        height: 50px;
+    }
+    .service {
+        padding: 30px 0;
+    }
+}
+@media (max-width: 767px){
+    .quick-view{
+        display: block !important;
+    }
+    .footer-top {
+        margin-bottom: 35px;
+    }
+    .brand .brand-carousel{
+        padding: 0;
+    }
+    .brand {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .hot-sale {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .newsletter {
+        margin: 35px 0;
+    }
+    .banner {
+        margin-bottom: 35px;
+    }
+    .newsletter .news_content {
+        margin: 0px 30px;
+    }
+    .newsletter .layout-column .addon-box{
+        padding: 30px;
+    }
+    .banner .left .content h3, 
+    .banner .left .content p,
+    .banner .right .top p {
+        line-height: 1.5;
+    }
+    .banner .right .bot .content h3{
+        padding-bottom: 0;
+    }
+    .banner .right .bot .content p{
+        margin-bottom: 0;
+    }
+    .fraction-slider .prev, .fraction-slider .next {
+        width: 20px;
+        height: 20px;
+        background-size: 10px !important;
+    }
+    .banner .left{
+        margin-bottom: 20px;
+    }
+    .newsletter .inputNew.popup {
+        min-width: 150px;
+    }
+}
+@media (max-width: 481px){
+    .service img{
+        width: 50px;
+    }
+    .newsletter #newsletter_block_left > .block_content {
+        display: block;
+        padding: 0px 0 15px;
+    }
+    .newsletter .news_content {
+        margin: 0px 15px;
+    }
+    .newsletter .layout-column .addon-box{
+        padding: 15px;
+    }
+    .newsletter .layout-column .addon-box {
+        padding: 15px;
+    }
+    .newsletter #newsletter_block_left .textnews_h1 {
+        padding: 0 15px;
+    }
+    .newsletter .form-group{
+        display: block;
+    }
+    .newsletter .newsletter-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
 
-
+}

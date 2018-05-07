@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-19 05:22:15
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 06:19:01
          compiled from "D:\xampp\htdocs\jms_goden\themes\jms_goden\templates\catalog\_partials\facets.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:146595ad85fc70526c0-12954299%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:126105aec3395a14796-98036080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '897f6c7818a7271dea9348430504f04f3b1b026b' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_goden\\themes\\jms_goden\\templates\\catalog\\_partials\\facets.tpl',
-      1 => 1523948722,
+      1 => 1525420190,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '146595ad85fc70526c0-12954299',
+  'nocache_hash' => '126105aec3395a14796-98036080',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad85fc71dcfa3_54764691',
+  'unifunc' => 'content_5aec3395b452d0_97025746',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad85fc71dcfa3_54764691')) {function content_5ad85fc71dcfa3_54764691($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\jms_goden\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5aec3395b452d0_97025746')) {function content_5aec3395b452d0_97025746($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\jms_goden\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
 ?>
   <div id="search_filters">
 	<div class="filter-box">	
@@ -118,9 +118,9 @@ $_smarty_tpl->tpl_vars["filter"]->_loop = true;
                       >
                         <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['label'], ENT_QUOTES, 'UTF-8');?>
 
-						<?php if ($_smarty_tpl->tpl_vars['filter']->value['magnitude']) {?>
-                          <span class="magnitude">(<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['magnitude'], ENT_QUOTES, 'UTF-8');?>
-)</span>
+						            <?php if ($_smarty_tpl->tpl_vars['filter']->value['magnitude']) {?>
+                          <span class="magnitude" style="color: #ff3f13; font-family: "semibold"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['magnitude'], ENT_QUOTES, 'UTF-8');?>
+</span>
                         <?php }?>
                       </a>
                     </label>

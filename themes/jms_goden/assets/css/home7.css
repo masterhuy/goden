@@ -390,9 +390,6 @@
 #footer .container {
     width: 1194px;
 }
-.footer-top .left{
-    padding-right: 9px;
-}
 .footer-top .container > .row{
     display: flex;
     align-items: center;
@@ -423,9 +420,6 @@
     background: #e1e1e1;
     right: -2px;
     top: 12px;
-}
-.footer-top .right{
-    padding-left: 9px;
 }
 .footer-top .right h3 {
     background: #252525;

@@ -50,11 +50,11 @@
     <meta itemprop="url" content="{$product.url}">
     <div class="row product-detail">
       <div class="pb-left-column col-sm-6 col-md-6 col-lg-6 col-xs-12">
-	   <div class="pd-left-content">
+	     <div class="pd-left-content">
           {block name='page_content_container'}
           <section class="page-content" id="content">
             {block name='page_content'}
-			 {block name='product_flags'}
+			       {block name='product_flags'}
                 <ul class="product-flags">
                   {foreach from=$product.flags item=flag}
                     <li class="product-flag {$flag.type}">{$flag.label}</li>
@@ -85,9 +85,7 @@
 				{include file='catalog/_partials/product-prices.tpl'}
             {/block}
 			<div class="product-information">
-				{block name='product_description_short'}
-					<div id="product-description-short-{$product.id}" class="product-desc"itemprop="description">{$product.description_short|strip_tags|truncate:100:"..."}</div>
-				{/block}
+				
 			
 				{if $product.is_customizable && count($product.customizations.fields)}
 					{block name='product_customization'}
@@ -95,7 +93,7 @@
 					{/block}
 				{/if}
 				
-                    <ul class="other-info">
+              <ul class="other-info">
 						{if $product.reference}
 												<!-- number of item in stock -->
 						<li id="product_reference">
@@ -131,6 +129,9 @@
 						{/if}
 					</li>
 					</ul>
+          {block name='product_description_short'}
+          <div id="product-description-short-{$product.id}" class="product-desc"itemprop="description">{$product.description_short|strip_tags|truncate:100:"..."}</div>
+        {/block}
 				<div class="product-actions">
 					{block name='product_buy'}
 						<form action="{$urls.pages.cart}" method="post" id="add-to-cart-or-refresh">

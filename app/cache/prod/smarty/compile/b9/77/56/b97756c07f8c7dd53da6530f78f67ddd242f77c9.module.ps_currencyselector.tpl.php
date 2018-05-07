@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-19 22:01:57
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 06:18:28
          compiled from "module:ps_currencyselector/ps_currencyselector.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:75065ad84693389643-18822361%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:69375aec337483c3a2-87444655%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '75065ad84693389643-18822361',
+  'nocache_hash' => '69375aec337483c3a2-87444655',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad846933b0749_04873016',
   'variables' => 
   array (
     'current_currency' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'currency' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5aec3374876d37_35888086',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad846933b0749_04873016')) {function content_5ad846933b0749_04873016($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aec3374876d37_35888086')) {function content_5aec3374876d37_35888086($_smarty_tpl) {?>
 <div id="_desktop_currency_selector" class="btn-group compact-hidden currency-info type1">
    	<a href="#"  class="btn-xs dropdown-toggle" data-toggle="dropdown">
 		<span class="btn-name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['current_currency']->value['iso_code'], ENT_QUOTES, 'UTF-8');?>

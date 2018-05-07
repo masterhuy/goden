@@ -70,7 +70,7 @@ jQuery(function ($) {
 			responsiveClass:true,
 			responsive:{            
 				1199:{
-                  items:3
+                  items:4
 				},
 				991:{
 					items:3
@@ -89,12 +89,12 @@ jQuery(function ($) {
 				}
 			},
 			rtl: rtl,
-			margin: 30,
+			margin: 20,
 			nav: true,
 			dots: false,
 			autoplay: true,
 			slideSpeed: 200,
-			loop:false,
+			loop:true,
 		});
 	}
 });

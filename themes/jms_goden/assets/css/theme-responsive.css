@@ -22,10 +22,6 @@
 .mega-col-nav.img-bottom {
     width: 32%;
 }
-.home_2 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth , .home_4 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth , 
-.home_5 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth, .home_8 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth {
-    width: 1300px !important;
-}
 }
 @media (max-width: 1400px){
    .btn-shopnow {
@@ -238,21 +234,6 @@
 	.breadcrumb-box{
 		text-align:center;
 	}
-   .btn-shopnow {
-		font-size: 1.7vw;
-		margin-top: 3vw;
-		padding: 2vw 3vw;
-	}
-   .text-large {
-		font-size: 4.5vw;
-		line-height: 5vw;
-	}
-    .text-small {
-		font-size: 1.6vw;
-	}
-	.home_1 .text-small{
-		line-height:8vw;
-	}
 	.pagenotfound h1 {
 		font-size: 25vw;
 	}
@@ -390,9 +371,6 @@
 	.nav-tabs li a::before{
 		display:none;
 	}
-	.fraction-slider {
-		height: 57vw !important;
-	}
 	.jms-slider-wrapper .slide {
 		background-position: 50% 50% !important;
 	}
@@ -454,12 +432,6 @@
 	#cart_block .shoppingcart-box {
 		min-width: 277px;
 		padding: 20px;
-	}
-	.fraction-slider {
-		height: 69vw !important;
-	}
-	.text-large {
-		font-size: 4.5vw;
 	}
 	.fs-pager-wrapper a, .fs-custom-pager-wrapper a{
 		font-size:12px;

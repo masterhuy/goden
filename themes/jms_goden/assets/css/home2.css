@@ -29,7 +29,6 @@
 .header .right .ajax_cart_quantity {
 	top: -5px;
 	right: -8px;
-	padding-left: 0 !important;
 	padding-top: 0 !important;
 }
 .header .right #cart_block .shoppingcart-box {
@@ -667,4 +666,10 @@ footer {
 
 .newsletter .btn-h3, .newsletter .textnews_h3{
     display: none;
+}
+.jms-megamenu .mega.home .dropdown-menu {
+	top: 74px;
+}
+.jms-megamenu .menu-item > .dropdown-menu {
+	top: 74px;
 }

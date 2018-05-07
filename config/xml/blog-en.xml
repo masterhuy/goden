@@ -6,6 +6,22 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Business are only as good as the technology allows it to be. Even online.</title>
+    <link>https://www.prestashop.com/en/blog/business-are-only-as-good-as-the-technology-allows-it-to-be-even-online</link>
+    <description>After an exciting day at the E-Commerce exhibition together with PrestaShop in Krakow I once again think about the e-commerce industry having such a ”limited / technical&quot; view of how consumers feel</description>
+     <pubDate>Thu, 03 May 2018 18:28:56 +0200</pubDate>
+ <dc:creator>ps_partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/business-are-only-as-good-as-the-technology-allows-it-to-be-even-online</guid>
+  </item>
+  <item>
+    <title>Meet Panagioitis &amp;amp; Alexius, Ambassadors of the month | April 2018</title>
+    <link>https://www.prestashop.com/en/blog/ambassador-alexius-panagiotis-athens</link>
+    <description>We chose Panagiotis &amp;amp; Alexius as Ambassadors of the month for their involvement and motivation towards the Greek community.</description>
+     <pubDate>Thu, 03 May 2018 00:00:00 +0200</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ambassador-alexius-panagiotis-athens</guid>
+  </item>
+  <item>
     <title>3 reasons why you should visit PrestaShop at ECommerce Kraków</title>
     <link>https://www.prestashop.com/en/blog/3-reasons-why-you-should-visit-prestashop-at-ecommerce-krakow</link>
     <description>We are very happy to announce that PrestaShop will be part again of ECommerce Kraków on 25th April 2018 at Targi eHandlu, Kraków.</description>
@@ -73,22 +89,6 @@ You can read our article about it here :</description>
      <pubDate>Fri, 30 Mar 2018 15:18:18 +0200</pubDate>
  <dc:creator>fattmerchant</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/avoid-these-6-common-credit-card-processing-nightmares-0</guid>
-  </item>
-  <item>
-    <title>Using Conversion Rate Optimization to boost sales</title>
-    <link>https://www.prestashop.com/en/blog/using-conversion-rate-optimization-to-boost-sales</link>
-    <description>It’s a digital marketer’s job to help increase sales on a website. So how do they do this?</description>
-     <pubDate>Tue, 27 Mar 2018 15:58:30 +0200</pubDate>
- <dc:creator>Anonymous</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/using-conversion-rate-optimization-to-boost-sales</guid>
-  </item>
-  <item>
-    <title>Meet Pravesh, Ambassador of the month | March 2018</title>
-    <link>https://www.prestashop.com/en/blog/embajador-pravesh-lucknow</link>
-    <description>Pravesh is our Ambassador in Lucknow, India since beginning 2016. We are grateful for the work he has invested in the program thanks to his successful meetups.</description>
-     <pubDate>Mon, 26 Mar 2018 11:42:23 +0200</pubDate>
- <dc:creator>MLNielsen</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/embajador-pravesh-lucknow</guid>
   </item>
   </channel>
 </rss>

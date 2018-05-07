@@ -83,8 +83,8 @@
                         rel="nofollow"
                       >
                         {$filter.label}
-						{if $filter.magnitude}
-                          <span class="magnitude">({$filter.magnitude})</span>
+						            {if $filter.magnitude}
+                          <span class="magnitude" style="color: #ff3f13; font-family: "semibold">{$filter.magnitude}</span>
                         {/if}
                       </a>
                     </label>

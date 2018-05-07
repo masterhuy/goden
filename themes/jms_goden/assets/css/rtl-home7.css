@@ -1,65 +1,51 @@
-.wrapper-banner.banner-top .banner-box {
-    padding-left: 0;
-    padding-right: 68px;
+.header .left .addon-box p {
+	margin-right: 13px;
+	margin-left: 0;
 }
-.wrapper-banner.banner-midle .banner-box {
-    padding-left: 97px;
-    padding-right: 0;
+.header .right .addon-box {
+	float: left;
 }
-footer .blog-item .img-responsive {
-    margin-left: 24px;
-    margin-right: 0;
-    width: 67px;
+.header .right .shopping-cart-icon {
+	margin-left: 29px;
+	margin-right: 0;
 }
-#social_block ul li {
-    margin-left: 0;
-    margin-right: 16px;
+.header .right .addon-box:last-child {
+	margin-left: 38px;
+	margin-right: 0;
 }
-.footer_b_left li {
-    margin-right: 0;
-	margin-left:26px;
+#cart_block .ajax_cart_quantity {
+	left: 47px;
+	right: auto;
+	top: -11px;
 }
- .newsletter-input {
-    margin-left: 6px;
-    margin-right: 0;
+.header .right .addon-box:first-child .dropdown-menu {
+	left: -12px;
+	right: auto;
 }
-.footer_b_right div{
-	float:left;
+.header .right .addon-box:first-child .dropdown-menu::after {
+	right: auto;
+	left: 18px;
+}
+#cart_block .shoppingcart-box::after {
+	left: 36px;
+	right: auto;
 }
 #ajax_search {
-    right: -131px;
+	left: -131px;
 }
-#cart_block .shoppingcart-box {
-    left: calc(100% + 214px);
+.header .jms_ajax_search .searchbox::after {
+	right: auto;
+	left: -11px;
 }
-.home_7 #layer_cart {
-    left: 0;
-    right: -100%;
-    transform: translate(50%);
+#search_result {
+	left: -26px;
+	top: 64px;
+	right: auto;
 }
-@media (max-width: 1199px){
-	.wrapper-banner.banner-midle .banner-box {
-		padding-left: 30px;
-		padding-right:0;
-	}
+.banner1 .content p, .banner1 .content h3, .banner1 .content, .banner1 .content h1{
+	direction: ltr !important;
 }
-@media (max-width: 991px){
-	.menu_hidden {
-		left: auto;
-		right: 0;
-	}
-	.search_cart{
-		left:0;
-		right:auto;
-	}
-	.home_7 #layer_cart {
-		left: 0;
-		right: -50%;
-		transform: translate(50%);
-	}
-}
-@media (max-width: 767px){
-.footer_b_right div {
-    float: right;
-}
+.footer-top .center ul li:not(:last-child) a::after {
+	left: -2px;
+	right: auto;
 }
