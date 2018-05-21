@@ -51,23 +51,23 @@
 <div id="newsletter_block_left" class="block">	
 	<div class="block_content">
 		<div class="textnews_popup addon-title">
-			<h2>{l s='Sign Up Our Newsletter' d='Shop.Theme'}</h2>
-			<span>{l s='For receive and never miss the latest products, news, events, promotion and many more' d='Shop.Theme'}</span>
+			<h2>{l s='Sign Up Our Newsletter' d='Shop.Theme.Global'}</h2>
+			<span>{l s='For receive and never miss the latest products, news, events, promotion and many more' d='Shop.ThemebGlobal'}</span>
 		</div>
 		<div class="textnews_h1 addon-title">
 			<h3>{l s='Don’t Miss Out!' d='Shop.Theme'}</h3>
 			<span>Get latest news & receive 30% off for your next buy!</span>
 		</div>
 		<div class="textnews_h2 addon-title">
-			<h3>Join Our Newsletter</h3>
+			<h3>{l s='Join Our Newsletter' d='Shop.Theme'}</h3>
 			<span>Sign up for get our offers and promotions and receive 20% off for your next buy!</span>
 		</div>
 		<div class="textnews_h3 addon-title">
-			<h3>Follow Us</h3>
+			<h3>{l s='Follow Us' d='Shop.Theme'}</h3>
 			<p>Hi you, sign up our newsletter and  get 30% off for your next purchase!</p>
 		</div>
 		<div class="textnews_h6 addon-title">
-			<h3>Don’t Miss Out!</h3>
+			<h3>{l s='Don’t Miss Out!' d='Shop.Theme'}</h3>
 			<p>Sign up for get news, our offers, promotions and receive 20% off for your next purchase!</p>
 		</div>
 		<div class="news_content">
@@ -86,16 +86,18 @@
 						
 						<input type="hidden" name="action" value="0" />
 					</div>
+					{if $msg}
+					    <div class="alert {if $nw_error}alert-danger{else}alert-success{/if}">
+					        {$msg}
+					    </div>
+					{/if}
 				</form>
 			</div>
        	</div>
 	</div>
+
 </div>
-{if $msg}
-    <div class="alert {if $nw_error}alert-danger{else}alert-success{/if}">
-        {$msg}
-    </div>
-{/if}
+
 <div id="social_block">
 	<ul class="find-us">
        <li class="divider"><a href="#" class="facebook"><span class="fa fa-facebook"></span></a></li>

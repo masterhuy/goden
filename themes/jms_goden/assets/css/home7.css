@@ -1,6 +1,16 @@
 .container-fluid{
-	width: 1780px;
+	max-width: 1780px;
+	width:100%;
 	margin: 0 auto;
+}
+#off-canvas-menu .languages-info.type1, #off-canvas-menu .currency-info.type1{
+    display: block;
+}
+#off-canvas-menu .languages-info.type2, #off-canvas-menu .languages-info.type3 {
+    display: none;
+}
+#off-canvas-menu .currency-info.type2, #off-canvas-menu .currency-info.type3{
+    display: none;
 }
 /*header*/
 .header{
@@ -46,6 +56,9 @@
 	display: block;
 	margin-top: 11px;
 }
+.header #search_result{
+	top: 63px;
+}
 .header .right .addon-box {
 	float: right;
 }
@@ -75,6 +88,10 @@
 	letter-spacing: 0.8px;
 	font-size: 13px;
 	background-size: 20px;
+	visibility: hidden;
+}
+.header .type1.open #ajax_search{
+	visibility: visible;
 }
 .header .jms_ajax_search .searchbox::after {
 	background: #fff none repeat scroll 0 0;
@@ -95,16 +112,13 @@
 .header #cart_block .shoppingcart-box{
 	top: 45px;
 }
-.header #_desktop_user_info .type2, 
+.header #_desktop_user_info .type1,
+.header #_desktop_user_info .type2,
 .languages-info.type1,
 .languages-info.type2,
 .currency-info.type1,
 .currency-info.type2{
 	display: none;
-}
-.header #_desktop_user_info a{
-	padding-bottom: 10px;
-	font-weight: 600;
 }
 .header .right .addon-box:first-child .btn-name{
 	font-weight: 600;
@@ -114,7 +128,12 @@
 	top: 40px;
 	right: -12px;
 	left: auto;
-	min-width: 165px;
+	min-width: 180px;
+	display: block;
+	visibility: hidden;
+}
+.header .right .addon-box:first-child .btn-group.open .dropdown-menu{
+	visibility: visible;
 }
 .header .right .addon-box:first-child .dropdown-menu::after {
 	background: #fff none repeat scroll 0 0;
@@ -153,6 +172,9 @@
 /*end menu*/
 
 /*banner1*/
+.banner img{
+	width: 100%;
+}
 .banner1 .feature-box{
 	position: relative;
 }
@@ -329,7 +351,7 @@
 	padding: 0 14px 0 23px;
 	letter-spacing: 5.7px;
 	margin-bottom: 25px;
-	margin-left: 71%;
+	margin-left: 70%;
 }
 .banner4 .content h1 {
 	font-size: 30px;
@@ -388,7 +410,8 @@
     background: #f9f9f9;
 }
 #footer .container {
-    width: 1194px;
+    max-width: 1194px;
+    width: 100%;
 }
 .footer-top .container > .row{
     display: flex;
@@ -453,3 +476,218 @@
     float: right;
 }
 /*end footer*/
+
+@media (max-width: 1366px){
+	.banner1 .content img, .banner4 .content img{
+		width: 71%;
+	}
+	.banner1 .include_content_s h2 {
+		letter-spacing: 3.5px;
+		right: -213px;
+		top: 46.4%;
+	}
+	.banner4 .include_content_s h2 {
+		letter-spacing: 3.5px;
+		left: -213px;
+		top: 46.4%;
+	}
+	.banner3 .include_content_s h2 {
+		letter-spacing: 3.5px;
+		left: -184px;
+		top: 45.1%;
+	}
+}
+@media (max-width: 1199px){
+	.banner1 .content h1 {
+		font-size: 20px;
+	}
+	.banner4 .content h1 {
+		font-size: 20px;
+	}
+	.banner2 .include_content_s h2 {
+		font-size: 100px;
+	}
+	.banner2 .include_content_s h3 {
+		font-size: 30px;
+	}
+	.banner3 .content h3 {
+		font-size: 30px;
+	}
+	.banner1 .content {
+		left: 100px;
+	}
+	.banner4 .content {
+		right: 100px;
+	}
+	.banner1 .content img, .banner4 .content img{
+		width: 59%;
+	}
+	.banner1 .include_content_s h2 {
+		letter-spacing: 0;
+		right: -156px;
+		top: 46.4%;
+	}
+	.banner4 .include_content_s h2 {
+		letter-spacing: 0;
+		left: -156px;
+		top: 46.4%;
+	}
+	.banner3 .include_content_s h2 {
+		letter-spacing: 0;
+		left: -133px;
+		top: 45.1%;
+	}
+}
+@media (max-width: 991px){
+	.footer-top .container > .row, .footer-bot .container > .row{
+		display: block;
+	}
+	.footer-top .left .addon-box{
+		display: flex;
+		justify-content: center;
+	}
+	.footer-top .right h3{
+		display: inline-block;
+		padding: 0 20px;
+		margin-top: 20px;
+	}
+	.footer-top .right .addon-title{
+		display: flex;
+		justify-content: center;
+	}
+	.footer-bot .left p{
+		text-align: center;
+	}
+	.footer-bot .right .addon-box {
+		float: unset;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.header .container {
+		padding: 0;
+	}
+	.menu{
+		margin-top: -44px;
+	}
+	.header .left{
+		visibility: hidden;
+	}
+	#open-button::before {
+		transform: translateY(-24px);
+	}
+	.header .right .addon-box:nth-child(1), .header .right .addon-box:nth-child(3){
+		display: none;
+	}
+	.banner1 .content h3 {
+		letter-spacing: 0.3px;
+	}
+	.banner4 .content h3 {
+		letter-spacing: 0.3px;
+	}
+	.banner1 .include_content_s h2 {
+		font-size: 16px;
+		right: -135px;
+	}
+	.banner4 .include_content_s h2 {
+		font-size: 16px;
+		left: -135px;
+	}
+	.banner3 .include_content_s h2 {
+		font-size: 16px;
+		left: -125px;
+	}
+	.banner2 .include_content_s h2 {
+		font-size: 80px;
+	}
+}
+@media (max-width: 767px){
+	.banner1 .include_content_s h2, .banner4 .include_content_s h2{
+		display: none;
+	}
+	.banner1 .content {
+		left: 50px;
+	}
+	.banner4 .content {
+		right: 50px;
+	}
+	.footer-top .addon-title h3{
+		padding-top:0 !important;
+	}
+	.header #cart_block .shoppingcart-box{
+		right: 15px;
+	}
+	.header .shoppingcart-box::after {
+		right: 26px;
+	}
+	.banner1, .banner4 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.best-seller {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.brand .brand-carousel {
+		padding: 30px 0;
+	}
+	.footer-top .container {
+		padding: 30px 0;
+	}
+}
+@media (max-width: 715px){
+	.banner1 .image img {
+		width: 212%;
+		margin-left: -106%;
+	}
+	.banner1 .content{
+		position: unset;
+		transform: unset;
+		padding: 15px;
+	}
+	.banner1 .content h3, .banner4 .content h3{
+		margin-bottom: 15px;
+	}
+	.banner1 .content h1, .banner4 .content h1{
+		padding-bottom: 15px;
+	}
+	.banner1 .content img, .banner4 .content img {
+		margin-bottom: 30px;
+	}
+	.banner4 .image img {
+		width: 212%;
+		margin-left: -37px;
+	}
+	.banner4 .content{
+		position: unset;
+		transform: unset;
+		padding: 15px;
+		text-align: left;
+	}
+	.banner4 .content h3{
+		margin-left: 0;
+	}
+	.banner1 .content h3, .banner4 .content h3{
+		display: inline-block;
+		width: auto;
+	}
+	.banner2_3 .image img {
+		width: 212%;
+	}
+	.banner3 .image img{
+		margin-left: -70px;
+	}
+	.banner2 .include_content_s, .banner3 .include_content_s .content {
+		position: unset;
+		transform: unset;
+		width:100%;
+		padding: 15px;
+	}
+}
+@media (max-width: 481px){
+	.banner1 .content img, .banner4 .content img {
+		width: 100%;
+	}
+	#open-button::before {
+		transform: translateY(-17px);
+	}
+}

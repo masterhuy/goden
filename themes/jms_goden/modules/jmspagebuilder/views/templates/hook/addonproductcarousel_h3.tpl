@@ -36,6 +36,12 @@
 {if $addon_title}
 <div class="addon-title">
 	<h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
+	<ul>
+		<li><a href="{$urls.base_url}index.php?id_category=10&controller=category&id_lang=1" class="all-items">All Items</a></li>
+		<li><a href="{$urls.base_url}index.php?id_category=12&controller=category&id_lang=1">Women</a></li>
+		<li><a href="{$urls.base_url}index.php?id_category=11&controller=category&id_lang=1">Men</a></li>
+		<li><a href="{$urls.base_url}index.php?id_category=16&controller=category&id_lang=1">Kids</a></li>
+	</ul>
 </div>
 {/if}	
 <div class="product-carousel custom_carousel">	

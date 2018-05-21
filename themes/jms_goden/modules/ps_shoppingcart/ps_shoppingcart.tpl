@@ -5,7 +5,7 @@
 		<span class="ajax_cart_quantity">{$cart.products_count}</span>
 	</a>
 	<a href="#" class="btn-xs tab-title dropdown-toggle" data-toggle="dropdown">		 
-		<span><span class="box-cart ajax_cart_quantity"> {$cart.products_count}</span> {l s='item(s) in your cart' mod='blockcart'}<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
+		<span><span class="box-cart ajax_cart_quantity">{$cart.products_count}</span> {l s='item(s) in your cart' mod='blockcart'}<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
 	</a>
 	<div class="dropdown-menu shoppingcart-box">
 		<div class="cart-title">YOUR CART</div>

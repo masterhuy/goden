@@ -30,8 +30,8 @@
 				{if isset($category.image.bySize.category_default.url) && {$category.image.bySize.category_default.url} != ""}
 					<div style="background:transparent url('{$category.image.bySize.category_default.url}')
 						no-repeat scroll center center / cover; height: 229px" class="content_scene_cat_bg">
-                          <div class="cat_desc">
-							<div class="flex-box">
+            <div class="cat_desc">
+							 <div class="flex-box">
 								 {if $category.description}
 									<div id="category-description" class="text-muted">{$category.description nofilter}</div>
 								  {/if}

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-06 00:28:03
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-21 00:26:06
          compiled from "D:\xamppp\htdocs\jms_goden\themes\jms_goden\modules\jmspagebuilder\views\templates\hook\addonblog.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:157735aee845371dc79-36946863%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:159935b024a5ea74606-91956243%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c112770f41f0cfa0584b3e51ed063ca89133e42f' => 
     array (
       0 => 'D:\\xamppp\\htdocs\\jms_goden\\themes\\jms_goden\\modules\\jmspagebuilder\\views\\templates\\hook\\addonblog.tpl',
-      1 => 1524207324,
+      1 => 1526370257,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '157735aee845371dc79-36946863',
+  'nocache_hash' => '159935b024a5ea74606-91956243',
   'function' => 
   array (
   ),
@@ -41,9 +41,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aee84537dd328_23952349',
+  'unifunc' => 'content_5b024a5ead9f10_34866020',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aee84537dd328_23952349')) {function content_5aee84537dd328_23952349($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xamppp\\htdocs\\jms_goden\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5b024a5ead9f10_34866020')) {function content_5b024a5ead9f10_34866020($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xamppp\\htdocs\\jms_goden\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_modifier_date_format')) include 'D:\\xamppp\\htdocs\\jms_goden\\vendor\\prestashop\\smarty\\plugins\\modifier.date_format.php';
 ?>
 <script type="text/javascript">	
@@ -100,7 +100,8 @@ $_smarty_tpl->tpl_vars['post']->_loop = true;
 				<h4 class="post-title">
 					<a href="<?php echo htmlspecialchars(smarty_modifier_replace($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape(jmsblog::getPageLink('jmsblog-post',$_smarty_tpl->tpl_vars['params']->value),'htmlall','UTF-8'),'&amp;','&'), ENT_QUOTES, 'UTF-8');?>
 "><?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['truncate'][0][0]->smarty_modifier_truncate($_smarty_tpl->tpl_vars['post']->value['title'],40,'...'),'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
-</a>
+
+					</a>
 				</h4>
 				<ul class="post-meta">
 					<?php if ($_smarty_tpl->tpl_vars['show_category']->value=='1') {?>
@@ -133,10 +134,18 @@ $_smarty_tpl->tpl_vars['post']->_loop = true;
 					<?php }?>
 				</ul>
 				<?php if ($_smarty_tpl->tpl_vars['show_introtext']->value=='1') {?>	
-					<div class="post-intro"><?php echo $_smarty_tpl->tpl_vars['post']->value['introtext'];?>
-</div>	
+					<div class="post-intro">
+						<a href="<?php echo htmlspecialchars(smarty_modifier_replace($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape(jmsblog::getPageLink('jmsblog-post',$_smarty_tpl->tpl_vars['params']->value),'htmlall','UTF-8'),'&amp;','&'), ENT_QUOTES, 'UTF-8');?>
+">
+							<?php echo $_smarty_tpl->tpl_vars['post']->value['introtext'];?>
+
+						</a>
+					</div>	
 				<?php }?>
 				<ul>
+					<li class="admin">
+						<span>By: Admin</span>
+					</li>
 					<?php if ($_smarty_tpl->tpl_vars['show_time']->value=='1') {?>
 						<li class="time">
 							<span class="post-created">

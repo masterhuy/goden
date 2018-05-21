@@ -148,7 +148,7 @@ jQuery(function ($) {
 				},
 			
 				318:{
-					items:2
+					items:1
 				}
 			},
 			rtl: rtl,
@@ -161,4 +161,8 @@ jQuery(function ($) {
 		});
 	}
  	
+});
+$(document).ready(function() {
+/* Apply fancybox to multiple items */
+	$('.grouped_elements').fancybox();
 });

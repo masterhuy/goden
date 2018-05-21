@@ -1,0 +1,239 @@
+#contact #wrapper #content-wrapper .contact-form .form-footer input {
+	background-color: #c7b199;
+}
+/*custom.css*/
+.btn:hover, .btn-default:hover{
+  background-color: #967959 !important;
+}
+.products-list-in-row .product_button a.cart-button:hover{
+  background-color: #967959;
+}
+.products-list-in-row .product-miniature .preview .quick-view:hover{
+  background-color: #c7b199;
+}
+.magnitude{
+  color: #c7b199;
+}
+.btn, .btn-default {
+  background-color: #c7b199;
+}
+.button-small {
+  background-color: #c7b199 !important;
+}
+#cart_block .ajax_cart_quantity {
+  background-color: #c7b199;
+}
+.checkout-info .pull-right {
+  color: #c7b199;
+}
+.product-preview .preview .label.label-sale {
+	background: #c7b199;
+}
+.product_action a:hover{
+  background-color: #c7b199 !important;
+}
+.price {
+  color: #c7b199;
+}
+.content_price .price.new {
+	color: #c7b199;
+}
+.pagination .current a, .pagination .current a:focus, .pagination .active a:hover, .pagination .current a, .pagination .current a:focus, .pagination .current span:hover {
+  background-color: #c7b199 !important;
+}
+.pagination li  a:focus, .pagination  li  a:hover, .pagination li  span:focus, .pagination  li  span:hover {
+    background-color: #c7b199 !important;
+}
+#blockcart-modal .cart-content button {
+  background-color: #c7b199;
+}
+.products-list-in-row .product_button a.cart-button {
+  background-color: #c7b199;
+}
+#promo-code .btn-primary {
+  background-color: #c7b199;
+}
+
+/*home1.css*/
+.banner .right .bot .content a {
+    color: #c7b199;
+}
+.banner .right .bot .content a::after {
+    background: #c7b199;
+}
+.hot-sale .content .percent{
+    color: #c7b199;
+}
+.newsletter .inputNew.popup {
+    border-bottom: 2px solid #c7b199;
+}
+.footer-bot .copyright a{
+    color: #c7b199;
+}
+
+/*home2.css*/
+.sale-off .content h2 {
+	color: #c7b199;
+}
+.top-interesting .view-all a:hover{
+	border: 2px solid #c7b199;
+	background-color: #c7b199;
+}
+.top-interesting ul li a.active{
+	color: #c7b199;
+}
+.banner .jms-banner.banner4 .content a {
+	color: #c7b199;
+}
+.banner .jms-banner.banner4 .content a::after {
+	background-color: #c7b199;
+}
+.newsletter .inputNew.popup {
+    border-bottom: 2px solid #c7b199;
+}
+.footer-bot .copyright a{
+    color: #c7b199;
+}
+
+/*home3*/
+.feature-product ul li.active .instant-btn{
+  color: #c7b199;
+}
+.sale-off .feature-box .include_content_s .mid {
+	color: #c7b199;
+}
+.sale-off .feature-box .include_content_s a:hover{
+	color: #c7b199;
+}
+.sale-off .feature-box .include_content_s a:hover::after{
+	background-color: #c7b199;
+}
+.footer-top .btn-h3:hover span{
+	color: #c7b199;
+}
+.footer-bot .copyright a{
+    color: #c7b199;
+}
+.feature-product .addon-title ul li a.all-items{
+	color: #c7b199;
+}
+
+/*home4*/
+.sale-off .include_content_s h1 {
+	color: #c7b199;
+}
+.sale-off .include_content_s h4 {
+	color: #c7b199;
+}
+.sale-off .feature-box .include_content_s a:hover{
+	color: #c7b199;
+}
+.sale-off .feature-box .include_content_s a:hover::after{
+	background-color: #c7b199;
+}
+.newsletter .inputNew.popup {
+    border-bottom: 2px solid #c7b199;
+}
+.footer-bot .copyright a{
+    color: #c7b199;
+}
+
+/*home5*/
+.top-interesting .view-all a:hover{
+	border-color: #c7b199;
+	background-color: #c7b199;
+}
+.top-interesting ul li a.active{
+	color: #c7b199;
+}
+.footer-top .btn-h3:hover span{
+	color: #c7b199;
+}
+.footer-top .contact .copyright p a{
+	color: #c7b199;
+}
+.footer-bot .copyright a{
+    color: #c7b199;
+}
+
+/*home6*/
+.html h3 {
+    color: #c7b199;
+}
+.html a:hover {
+    background-color: #c7b199;
+    border-color: #c7b199;
+}
+.footer-bot .left p a{
+    color: #c7b199;
+}
+
+/*home7*/
+.banner1 .content a:hover{
+	background-color: #c7b199;
+	border-color: #c7b199;
+}
+.banner3 .feature-box .include_content_s a:hover, 
+.banner2 .feature-box .include_content_s a:hover {
+	color: #c7b199;
+}
+.banner2 .feature-box .include_content_s a:hover::after,
+.banner3 .feature-box .include_content_s a:hover::after {
+	background-color: #c7b199;
+}
+.banner4 .content a:hover{
+	background-color: #c7b199;
+	border-color: #c7b199;
+}
+.footer-bot .left p a{
+    color: #c7b199;
+}
+
+/*home8*/
+.product .pro h3 {
+    color: #c7b199;
+}
+.product .pro .btn-shopnow {
+    background-color: #c7b199;
+}
+.footer-top .btn-h3:hover span{
+    color: #c7b199;
+}
+.footer-top .contact .copyright p a{
+    color: #c7b199;
+}
+.footer-bot .copyright a{
+    color: #c7b199;
+}
+
+/*product.css*/
+.arrows.js-arrows i:hover, .scroll-box-arrows i:hover {
+    background-color: #c7b199;
+}
+.product-quantity .add-to-cart {
+    background-color: #c7b199;
+}
+.product-quantity .btn-touchspin:hover{
+    background-color: #c7b199;
+}
+.other-info > li label::before{
+    border-color: #c7b199;
+}
+
+/*owl.theme.css*/
+.owl-dot.active span {
+	background-color: #c7b199;
+}
+
+/*popupadvertising.css*/
+.jms-popup-content .newsletter-btn.buttonh1 {
+  background-color: #c7b199;
+}
+
+/*fractionslider.css*/
+.fraction-slider .prev:hover{
+	background-color: #c7b199;
+}
+.fraction-slider .next:hover{
+	background-color: #c7b199;
+}

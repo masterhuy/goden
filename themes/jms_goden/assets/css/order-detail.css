@@ -24,7 +24,7 @@
 .table > thead > tr > th.order-title {
 	padding:10px 8px;
 	text-transform:uppercase;
-	color:#fff;
+	color:#111;
 	font-weight:500;
 	font-size:15px;
 }
@@ -45,6 +45,14 @@
 }
 #order-detail .order-message-form .form-footer.text-xs-center {
 	text-align:right;
+}
+#order-detail .text-xs-right a{
+	font-size: 16px;
+	padding: 10px 16px;
+}
+#order-detail .form-footer button{
+	font-size: 16px;
+	padding: 10px 16px;
 }
 @media(max-width:320px) {
 	table#order-products, .box-last table {

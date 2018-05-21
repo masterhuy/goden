@@ -89,6 +89,7 @@ jQuery(function ($) {
 			margin:20,
 			nav: p_nav_tab,
 			dots: p_pag_tab,
+			loop:true,
 			autoplay: auto_play_tab,
 			slideSpeed: 800,
 		});
@@ -156,4 +157,8 @@ jQuery(function ($) {
 				slideSpeed: 800,	
 		});
 	}
+});
+$(document).ready(function() {
+/* Apply fancybox to multiple items */
+	$('.grouped_elements').fancybox();
 });

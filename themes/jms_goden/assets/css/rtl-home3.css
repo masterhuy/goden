@@ -16,6 +16,17 @@
     padding-left: 0;
     padding-right: 30px;
 }
+.jms-megamenu .must-see .dropdown-menu::before {
+    right: 18.5%;
+    left: auto;
+}
+.jms-megamenu .mega-feature .dropdown-menu::before {
+    right: 27%;
+    left: auto;
+}
+.jms-megamenu .menu-item.blog > .dropdown-menu {
+    right: 181px;
+}
 .header .left .addon-box:first-child {
     padding-left: 25px;
     padding-right: 0;
@@ -36,9 +47,26 @@
 }
 .header .right .shopping-cart-icon {
     right: -30px;
+    top: -6px;
+}
+.header .jms_ajax_search .searchbox::after {
+    left: -10px;
+    right: auto;
+}
+.header #search_result {
+    right: 340px;
+    left: auto;
 }
 #cart_block .ajax_cart_quantity {
-    top: -21px;
+    top: -17px;
+}
+.header .right .wishlist {
+    left: 91px;
+    right: auto;
+}
+.header .right .wishlist::after {
+    right: auto;
+    left: -27px;
 }
 .header #ajax_search{
     right: 340px;
@@ -70,4 +98,14 @@
 #footer .link {
     padding-right: 59px;
     padding-left: 15px;
+}
+.feature-product .addon-title ul {
+    float: left;
+}
+.feature-product .addon-title h3 {
+    float: right;
+}
+.feature-product .addon-title ul li a {
+    padding-left: 0;
+    padding-right: 45px;
 }

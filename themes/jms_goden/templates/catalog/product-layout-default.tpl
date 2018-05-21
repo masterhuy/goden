@@ -49,7 +49,7 @@
   <section id="main" itemscope itemtype="https://schema.org/Product">
     <meta itemprop="url" content="{$product.url}">
     <div class="row product-detail">
-      <div class="pb-left-column col-sm-6 col-md-6 col-lg-6 col-xs-12">
+      <div class="pb-left-column col-lg-6 col-md-6 col-sm-6 col-xs-12">
 	     <div class="pd-left-content">
           {block name='page_content_container'}
           <section class="page-content" id="content">
@@ -75,7 +75,7 @@
         {/block}
 		 </div>
         </div>
-        <div class="pb-right-column col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="pb-right-column col-lg-6 col-md-6 col-sm-6 col-xs-12">
 			{block name='page_header_container'}
 				{block name='page_header'}
 					<h2  itemprop="name">{block name='page_title'}{$product.name}{/block}</h2>
@@ -83,7 +83,7 @@
 			{/block}
 			{block name='product_prices'}
 				{include file='catalog/_partials/product-prices.tpl'}
-            {/block}
+      {/block}
 			<div class="product-information">
 				
 			
@@ -101,12 +101,15 @@
 							<span class="editable">{$product.reference}</span>
 						</li>
 						{/if}
-						<li id="pQuantityAvailable">
-							<label>{l s='Quantity:' d='Shop.Theme.Catalog'}</label>
-							<span id="quantityAvailable">{$product.quantity|intval}</span>
-							<span {if $product.quantity > 1} style="display: none;"{/if}>{l s='Item' d='Shop.Theme.Catalog'}</span>
-							<span {if $product.quantity == 1} style="display: none;"{/if}>{l s='Items' d='Shop.Theme.Catalog'}</span>
-						</li>
+            
+            {include file='catalog/_partials/product-quantity.tpl'}
+
+            <!-- <li id="pQuantityAvailable">
+              <label>{l s='Quantity:' d='Shop.Theme.Catalog'}</label>
+              <span id="quantityAvailable">{$product.quantity|intval}</span>
+              <span {if $product.quantity > 1} style="display: none;"{/if}>{l s='Item' d='Shop.Theme.Catalog'}</span>
+              <span {if $product.quantity == 1} style="display: none;"{/if}>{l s='Items' d='Shop.Theme.Catalog'}</span>
+            </li> -->
 												<!-- availability or doesntExist -->
 						<li id="availability_statut">
 							<label id="availability_label">
@@ -179,7 +182,7 @@
 		</div>
 	
     </div>
-	
+
 	<div id="more_info_block" class="tabs">
             {block name='product_tabs'}
               <div class="tabs">
@@ -225,14 +228,14 @@
                     </li>
                   {/foreach}
                 </ul>
-
+                
                 <div class="tab-content" id="tab-content">
                  <div class="tab-pane fade in{if $product.description} active{/if}" id="description" role="tabpanel">
                    {block name='product_description'}
                      <div class="product-description">{$product.description nofilter}</div>
                    {/block}
                  </div>
-
+                  
                  {block name='product_details'}
                    {include file='catalog/_partials/product-details.tpl'}
                  {/block}

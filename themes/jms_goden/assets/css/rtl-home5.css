@@ -31,13 +31,6 @@
     left: 47px;
     top: -11px;
 }
-.topbar .right .addon-box:first-child .dropdown-menu {
-    padding: 20px;
-    top: 40px;
-    left: -12px;
-    right: auto;
-    min-width: 165px;
-}
 .topbar #cart_block .shoppingcart-box {
     top: 45px;
     left: 29px !important;
@@ -95,8 +88,8 @@
     float: left;
 }
 .header .right .shopping-cart-icon {
-    margin-left: 29px;
-    margin-right: 0;
+    right: 9px;
+    top: -5px;
 }
 .header .right .addon-box:last-child {
     margin-left: 38px;
@@ -104,7 +97,15 @@
 }
 #cart_block .ajax_cart_quantity {
     left: -20px;
-    top: -22px;
+    top: -17px;
+}
+.header .right .wishlist {
+    left: 91px;
+    right: auto;
+}
+.header .right .wishlist::after {
+    left: -27px;
+    right: auto;
 }
 .header .right .addon-box:first-child .dropdown-menu {
     padding: 20px;

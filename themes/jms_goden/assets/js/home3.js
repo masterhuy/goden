@@ -26,11 +26,11 @@ $(window).load(function(){
 });
 jQuery(function ($) {
     "use strict";
-    if($(".product-carousel").length) {		
-		var productCarousel = $(".product-carousel");			
+    if($(".product-carousel").length) {
+		var productcarousel = $(".product-carousel");			
 		var rtl = false;
 		if ($("body").hasClass("rtl")) rtl = true;				
-		productCarousel.owlCarousel({
+		productcarousel.owlCarousel({
 			responsiveClass:true,
 			responsive:{			
 				1199:{
@@ -48,6 +48,42 @@ jQuery(function ($) {
 				361:{
 					items:1
 				},
+				0: {
+					items:1
+				}
+			},
+			rtl: rtl,
+				margin: 20,
+			    nav: p_nav,
+		        dots: p_pag,
+				autoplay: auto_play_carousel,
+				loop:true,
+			    navigationText: ["", ""],
+			    slideSpeed: 200
+		});
+	}
+    if($(".instant-products").length) {		
+		var instantCarousel = $(".instant-products");			
+		var rtl = false;
+		if ($("body").hasClass("rtl")) rtl = true;				
+		instantCarousel.owlCarousel({
+			responsiveClass:true,
+			responsive:{			
+				1199:{
+					items:4
+				},
+				991:{
+					items:3
+				},
+				768:{
+					items:2
+				},
+				481:{
+					items:1
+				},
+				361:{
+					items:1
+				},
 				0:{
 					items:1
 				}
@@ -56,6 +92,7 @@ jQuery(function ($) {
 			margin:20,
 			nav: p_nav,
 			dots: p_pag,
+			loop:true,
 			autoplay: auto_play_carousel,
 			slideSpeed: 800,
 		});
@@ -88,6 +125,7 @@ jQuery(function ($) {
 				margin:20,
 				nav: p_nav_blog,
 		        dots: p_pag_blog,
+		        loop: true,
 				autoplay:auto_play_blog,
 				slideSpeed: 800,	
 		});
@@ -128,4 +166,5 @@ jQuery(function ($) {
 			    slideSpeed: 200
 		});
 	}
+
 });

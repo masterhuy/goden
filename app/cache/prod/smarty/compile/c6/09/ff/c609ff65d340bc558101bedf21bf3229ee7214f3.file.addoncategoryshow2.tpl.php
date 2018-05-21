@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-06 22:03:22
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-21 00:26:29
          compiled from "D:\xamppp\htdocs\jms_goden\modules\jmspagebuilder\views\templates\hook\addoncategoryshow2.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:326335aefb3eabe0d59-78443955%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:254835b024a75acf750-26845386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c609ff65d340bc558101bedf21bf3229ee7214f3' => 
     array (
       0 => 'D:\\xamppp\\htdocs\\jms_goden\\modules\\jmspagebuilder\\views\\templates\\hook\\addoncategoryshow2.tpl',
-      1 => 1524796669,
+      1 => 1526525156,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '326335aefb3eabe0d59-78443955',
+  'nocache_hash' => '254835b024a75acf750-26845386',
   'function' => 
   array (
   ),
@@ -25,44 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aefb3eac7d155_05611476',
+  'unifunc' => 'content_5b024a75aeacd0_44464904',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aefb3eac7d155_05611476')) {function content_5aefb3eac7d155_05611476($_smarty_tpl) {?>
-<script type="text/javascript">
-jQuery(function ($) {
-    "use strict";
-	var categoriesCarousel = $(".categories-carousel2");		
-	var rtl = false;
-	if ($("body").hasClass("rtl")) rtl = true;				
-	categoriesCarousel.owlCarousel({
-		responsiveClass:true,
-		responsive:{			
-			1199:{
-				items:4
-			},
-			991:{
-				items:3
-			},
-			768:{
-				items:2
-			},
-			318:{
-				items:1
-			}
-		},
-		rtl: rtl,
-		margin:30,
-	    nav: true,
-	    dots: false,
-		autoplay: false,
-		loop: true,
-	    rewindNav: false,
-	    navigationText: ["", ""],
-	    slideBy: false,
-	    slideSpeed: 200	
-	});
-});
-</script>
+<?php if ($_valid && !is_callable('content_5b024a75aeacd0_44464904')) {function content_5b024a75aeacd0_44464904($_smarty_tpl) {?>
 <div class="home_categories2">
     <?php if (isset($_smarty_tpl->tpl_vars['categories']->value)&&$_smarty_tpl->tpl_vars['categories']->value) {?>
             <div class="categories-carousel2">
@@ -76,9 +41,9 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
 						<div class="categoy-image">
 							<a href="<?php echo $_smarty_tpl->tpl_vars['categoryLink']->value;?>
 ">
-								<img src="<?php echo $_smarty_tpl->tpl_vars['img_cat_dir']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['category']->value['id_category'];?>
-.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['category']->value['name'];?>
+								<img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['img_cat_dir']->value, ENT_QUOTES, 'UTF-8');?>
+<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['category']->value['id_category'], ENT_QUOTES, 'UTF-8');?>
+_thumb.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['category']->value['name'];?>
 " title="<?php echo $_smarty_tpl->tpl_vars['category']->value['name'];?>
 " class="img-responsive"/>
 							</a>

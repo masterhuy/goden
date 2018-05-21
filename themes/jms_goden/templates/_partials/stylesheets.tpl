@@ -23,8 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
- <link rel="stylesheet" type="text/css" href="{$urls.theme_assets}/css/neueeinstellung/neueeinstellung.css" />
- <link rel="stylesheet" type="text/css" href="{$urls.theme_assets}/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+ <link rel="stylesheet" type="text/css" href="{$urls.theme_assets}css/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/jms_goden/themes/jms_goden/assets/css/simple-line-icons.css" />
 {foreach $stylesheets.external as $stylesheet}

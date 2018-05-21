@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-06 00:28:02
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-21 00:26:43
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:58615aee8452d2c6d4-48745249%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:98625b024a83d5b0f7-60901195%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl',
-      1 => 1525244326,
+      1 => 1526538813,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '58615aee8452d2c6d4-48745249',
+  'nocache_hash' => '98625b024a83d5b0f7-60901195',
   'function' => 
   array (
   ),
@@ -24,18 +24,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aee8452d57660_93280585',
+  'unifunc' => 'content_5b024a83d76675_57670106',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aee8452d57660_93280585')) {function content_5aee8452d57660_93280585($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b024a83d76675_57670106')) {function content_5b024a83d76675_57670106($_smarty_tpl) {?>
 
 <!-- Block Newsletter module-->
 
 <div id="newsletter_block_left" class="block">	
 	<div class="block_content">
 		<div class="textnews_popup addon-title">
-			<h2><?php echo smartyTranslate(array('s'=>'Sign Up Our Newsletter','d'=>'Shop.Theme'),$_smarty_tpl);?>
+			<h2><?php echo smartyTranslate(array('s'=>'Sign Up Our Newsletter','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </h2>
-			<span><?php echo smartyTranslate(array('s'=>'For receive and never miss the latest products, news, events, promotion and many more','d'=>'Shop.Theme'),$_smarty_tpl);?>
+			<span><?php echo smartyTranslate(array('s'=>'For receive and never miss the latest products, news, events, promotion and many more','d'=>'Shop.ThemebGlobal'),$_smarty_tpl);?>
 </span>
 		</div>
 		<div class="textnews_h1 addon-title">
@@ -44,15 +44,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<span>Get latest news & receive 30% off for your next buy!</span>
 		</div>
 		<div class="textnews_h2 addon-title">
-			<h3>Join Our Newsletter</h3>
+			<h3><?php echo smartyTranslate(array('s'=>'Join Our Newsletter','d'=>'Shop.Theme'),$_smarty_tpl);?>
+</h3>
 			<span>Sign up for get our offers and promotions and receive 20% off for your next buy!</span>
 		</div>
 		<div class="textnews_h3 addon-title">
-			<h3>Follow Us</h3>
+			<h3><?php echo smartyTranslate(array('s'=>'Follow Us','d'=>'Shop.Theme'),$_smarty_tpl);?>
+</h3>
 			<p>Hi you, sign up our newsletter and  get 30% off for your next purchase!</p>
 		</div>
 		<div class="textnews_h6 addon-title">
-			<h3>Don’t Miss Out!</h3>
+			<h3><?php echo smartyTranslate(array('s'=>'Don’t Miss Out!','d'=>'Shop.Theme'),$_smarty_tpl);?>
+</h3>
 			<p>Sign up for get news, our offers, promotions and receive 20% off for your next purchase!</p>
 		</div>
 		<div class="news_content">
@@ -77,17 +80,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 						<input type="hidden" name="action" value="0" />
 					</div>
+					<?php if ($_smarty_tpl->tpl_vars['msg']->value) {?>
+					    <div class="alert <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
+					        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'UTF-8');?>
+
+					    </div>
+					<?php }?>
 				</form>
 			</div>
        	</div>
 	</div>
-</div>
-<?php if ($_smarty_tpl->tpl_vars['msg']->value) {?>
-    <div class="alert <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
-        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'UTF-8');?>
 
-    </div>
-<?php }?>
+</div>
+
 <div id="social_block">
 	<ul class="find-us">
        <li class="divider"><a href="#" class="facebook"><span class="fa fa-facebook"></span></a></li>

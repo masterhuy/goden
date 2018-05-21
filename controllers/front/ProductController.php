@@ -403,6 +403,7 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
                     'customizations' => $product['customizations'],
                 )
             ),
+            'product_quantity' => $this->render('catalog/_partials/product-quantity'),
             'product_details' => $this->render('catalog/_partials/product-details'),
             'product_variants' => $this->render('catalog/_partials/product-variants'),
             'product_discounts' => $this->render('catalog/_partials/product-discounts'),

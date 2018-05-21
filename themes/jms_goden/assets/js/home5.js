@@ -218,6 +218,7 @@ jQuery(function ($) {
 			margin:20,
 			nav: p_nav_tab,
 			dots: p_pag_tab,
+			loop:true,
 			autoplay: auto_play_tab,
 			slideSpeed: 800,
 		});
@@ -238,9 +239,8 @@ jQuery(function ($) {
 				768:{
 					items:3
 				},
-			
 				318:{
-					items:2
+					items:1
 				}
 			},
 			rtl: rtl,

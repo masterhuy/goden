@@ -6,6 +6,14 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Best Practices and Optimizations for your Product Page</title>
+    <link>https://www.prestashop.com/en/blog/best-practices-and-optimizations-for-your-product-page</link>
+    <description>Your product page is where potential customers make the ultimate decision: to buy or not to buy.</description>
+     <pubDate>Wed, 16 May 2018 17:11:51 +0200</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/best-practices-and-optimizations-for-your-product-page</guid>
+  </item>
+  <item>
     <title>Business are only as good as the technology allows it to be. Even online.</title>
     <link>https://www.prestashop.com/en/blog/business-are-only-as-good-as-the-technology-allows-it-to-be-even-online</link>
     <description>After an exciting day at the E-Commerce exhibition together with PrestaShop in Krakow I once again think about the e-commerce industry having such a ”limited / technical&quot; view of how consumers feel</description>
@@ -14,7 +22,7 @@
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/business-are-only-as-good-as-the-technology-allows-it-to-be-even-online</guid>
   </item>
   <item>
-    <title>Meet Panagioitis &amp;amp; Alexius, Ambassadors of the month | April 2018</title>
+    <title>Meet Panagiotis &amp;amp; Alexius, Ambassadors of the month | April 2018</title>
     <link>https://www.prestashop.com/en/blog/ambassador-alexius-panagiotis-athens</link>
     <description>We chose Panagiotis &amp;amp; Alexius as Ambassadors of the month for their involvement and motivation towards the Greek community.</description>
      <pubDate>Thu, 03 May 2018 00:00:00 +0200</pubDate>
@@ -81,14 +89,6 @@ You can read our article about it here :</description>
      <pubDate>Mon, 09 Apr 2018 12:08:38 +0200</pubDate>
  <dc:creator>paypal</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/mobile-matters</guid>
-  </item>
-  <item>
-    <title>Avoid These 6 Common Credit Card Processing Nightmares </title>
-    <link>https://www.prestashop.com/en/blog/avoid-these-6-common-credit-card-processing-nightmares-0</link>
-    <description>As an e-commerce business owner, I’m sure you’ve been told time and time again that processing payments is simply going to be a hassle.</description>
-     <pubDate>Fri, 30 Mar 2018 15:18:18 +0200</pubDate>
- <dc:creator>fattmerchant</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/avoid-these-6-common-credit-card-processing-nightmares-0</guid>
   </item>
   </channel>
 </rss>

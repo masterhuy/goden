@@ -60,7 +60,8 @@
 			{/if}	
 			<div class="post-info">
 				<h4 class="post-title">
-					<a href="{jmsblog::getPageLink('jmsblog-post', $params)|escape:'htmlall':'UTF-8'|replace:'&amp;':'&'}">{$post.title|truncate:40:'...'|escape:'htmlall':'UTF-8'}</a>
+					<a href="{jmsblog::getPageLink('jmsblog-post', $params)|escape:'htmlall':'UTF-8'|replace:'&amp;':'&'}">{$post.title|truncate:40:'...'|escape:'htmlall':'UTF-8'}
+					</a>
 				</h4>
 				<ul class="post-meta">
 					{if $show_category == '1'}
@@ -87,9 +88,16 @@
 					{/if}
 				</ul>
 				{if $show_introtext == '1'}	
-					<div class="post-intro">{$post.introtext nofilter}</div>	
+					<div class="post-intro">
+						<a href="{jmsblog::getPageLink('jmsblog-post', $params)|escape:'htmlall':'UTF-8'|replace:'&amp;':'&'}">
+							{$post.introtext nofilter}
+						</a>
+					</div>	
 				{/if}
 				<ul>
+					<li class="admin">
+						<span>By: Admin</span>
+					</li>
 					{if $show_time == '1'}
 						<li class="time">
 							<span class="post-created">

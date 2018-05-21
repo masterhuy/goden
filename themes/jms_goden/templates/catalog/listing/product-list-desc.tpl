@@ -29,6 +29,7 @@
 			   {if $page.page_name=="category"}
 				
 						<div class="cat_desc">
+              <span class="title_meta">{$page.meta.title}</span>
 							<div class="flex-box">
 								 {if $category.description}
 									<div id="category-description" class="text-muted">{$category.description nofilter}</div>

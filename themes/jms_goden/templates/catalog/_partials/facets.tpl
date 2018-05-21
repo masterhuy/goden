@@ -84,7 +84,7 @@
                       >
                         {$filter.label}
 						            {if $filter.magnitude}
-                          <span class="magnitude" style="color: #ff3f13; font-family: "semibold">{$filter.magnitude}</span>
+                          <span class="magnitude" style="font-family: "semibold">{$filter.magnitude}</span>
                         {/if}
                       </a>
                     </label>

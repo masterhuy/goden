@@ -136,3 +136,6 @@
 		font-size: 22px;
 	}
 }
+#order-confirmation .action-buttons a{
+  margin-left: 10px;
+}

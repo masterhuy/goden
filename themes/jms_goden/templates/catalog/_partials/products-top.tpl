@@ -26,10 +26,8 @@
 		<div class="row">
 		
 			<div class="col-lg-6 col-md-6 col-sm-5 col-xs-12 view-mode left clearfix">
-				<a class="view-grid {if $jpb_grid == 1}active{/if}" href="#">
-					</a> 
-					<a class="view-list {if $jpb_grid == 0}active{/if}" href="#">
-					</a>
+				<a class="view-grid {if $jpb_grid == 1}active{/if}" href="#"></a>
+				<a class="view-list {if $jpb_grid == 0}active{/if}" href="#"></a>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-7 col-xs-12 right">
 				<div class="view-mode ">

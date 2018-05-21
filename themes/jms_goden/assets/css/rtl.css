@@ -1129,13 +1129,21 @@ footer .post-created {
   margin-left: 31px;
   margin-right: 0;
 }
-.blog .post-info .time span {
+.blog .post-info .time span, .blog .post-info .admin span {
   padding-right: 24px;
   padding-left: 0;
 }
-.newsletter .news_content {
+.blog .blog-item ul li.admin {
+  margin-left: 32px;
+  margin-right: 0;
+}
+.footer-top .newsletter .news_content {
   margin-left: 77px;
   margin-right: 0;
+}
+.newsletter .news_content {
+  margin-right: 77px;
+  margin-left: 0;
 }
 .newsletter .inputNew.popup {
   margin-left: 10px;

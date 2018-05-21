@@ -66,3 +66,8 @@
 		font-size: 13px;
 	}
 }
+@media (max-width: 767px){
+	#pagenotfound #main h4, #search #main h4 {
+		font-size: 150px;
+	}
+}

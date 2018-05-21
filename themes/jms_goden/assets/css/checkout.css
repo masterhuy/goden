@@ -25,7 +25,7 @@
 	padding-left:0;
 }
 .content ul li a {
-    font-family: "neue einstellung";
+    font-family: "regular";
     font-size: 16px;
 }
 .tab-content .form-group label{
@@ -39,9 +39,9 @@
 	margin-right:30px !important;
 }
 .tab-content .form-group .input-group-btn button {
-    border-color: #ebebeb;
-    border-left: 0 none #ebebeb;
-    padding: 6px 20px;
+	border-color: #ebebeb;
+	border-left: 0 none #ebebeb;
+	padding: 11.5px 20px;
 }
 #checkout .tab-content > .tab-pane {
 	display: none;
@@ -68,7 +68,10 @@
     border-radius: 0;
     font-size: 13px;
     margin-left: 0;
-    padding: 6px 17px;
+    padding: 6px 13px;
+}
+.pasword-form .show-pass button:hover {
+	color: #fff !important;
 }
 .form-control-comment {
 	line-height:40px;
@@ -104,6 +107,7 @@
 }
 #checkout #delivery-address .form-footer button {
 	margin-right:10px;
+	border-radius: 0;
 }
 #checkout section#content #js-checkout-summary p {
 	font-size:16px;
@@ -124,7 +128,7 @@
 }
 #checkout section#content #js-checkout-summary .card-block .label {
     color: rgba(17, 17, 17, 0.9);
-    font-family: neue einstellung;
+    font-family: regular;
     font-size: 14px;
     font-weight: 600;
     line-height: 30px;
@@ -132,7 +136,7 @@
     text-transform: uppercase;
 }
 #checkout section#content #js-checkout-summary .card-block .value{
-	 font-family: neue einstellung;
+	 font-family: regular;
     font-size: 14px;
     font-weight: 600;
 }
@@ -199,6 +203,7 @@
 }
 #checkout #conditions-to-approve ul li{
 	display:flex;
+	align-items: center;
 }
 #checkout #conditions-to-approve ul li .condition-label {
 	line-height:21px;
@@ -307,10 +312,15 @@ body#checkout section.checkout-step.-current .content .add-address {
 }
 body#checkout section.checkout-step.-current .content .form-control-select {
 	-moz-appearance: none;
+	-webkit-appearance: none;
 	background: #fff url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAPklEQVR4Ae3TwREAEBQD0V/6do4SXPZg7EsBhsQ8IEmSMOsiuEfg3gL3oXC7wK0bd1G4o8X9F4yIkyQfSrIByQBjp7QuND8AAAAASUVORK5CYII=") no-repeat scroll right 0.5rem center / 2.25rem 2.25rem !important;
 	height: 40px;
 	padding-right: 2rem;
 	width:100%;
+}
+#cta-terms-and-conditions-0{
+	color: #ff3f13;
+	font-family: "bold"
 }
 @media(max-width:360px){
 	body#checkout section.checkout-step .content {

@@ -22,6 +22,7 @@
 }
 .cart-box .btn-shopping {
 	float:right;
+	font-size: 16px;
 }
 .text-xs-center{
 	text-align:center;
@@ -38,7 +39,7 @@
 }
 .product-line-info .label.product-name {
     color: #111;
-    font-family: "neue einstellung";
+    font-family: "regular";
     font-size: 16px;
 }
 .product-line-grid {
@@ -74,14 +75,14 @@
 }
 .cart-summary .label {
     color: #333;
-    font-family: "neue einstellung";
+    font-family: "regular";
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
 }
 .cart-summary .value {
     float: right;
-    font-family: neue einstellung;
+    font-family: regular;
     font-size: 14px;
     font-weight: 600;
 }
@@ -105,10 +106,11 @@
 .card.cart-summary .checkout a {
     background: #f3f4f6 none repeat scroll 0 0;
     border: 0 none;
-    font-family: "neue einstellung";
-    font-size: 13px;
+    font-family: "regular";
+    font-size: 16px;
     padding: 10px 0;
     width: 100%;
+    display: block;
 }
 .card.cart-summary .checkout a:hover{
 	  background-color: #111;

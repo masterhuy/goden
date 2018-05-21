@@ -1,4 +1,3 @@
-
 $(window).load(function(){
 	if($('.slider').length > 0)
 	$('.slider').fractionSlider({	
@@ -90,6 +89,7 @@ jQuery(function ($) {
 				nav: p_nav_blog,
 		        dots: p_pag_blog,
 				autoplay:auto_play_blog,
+				loop:true,
 				slideSpeed: 800,	
 		});
 	}
@@ -127,6 +127,35 @@ jQuery(function ($) {
 				loop:true,
 			    navigationText: ["", ""],
 			    slideSpeed: 200
+		});
+	}
+	if($(".categories-carousel2").length) {
+		var cateCarousel = $(".categories-carousel2");
+		var rtl = false;
+		if ($("body").hasClass("rtl")) rtl = true;				
+		cateCarousel.owlCarousel({
+			responsiveClass:true,
+			responsive:{			
+				1199:{
+					items:4
+					},
+				991:{
+					items:3
+				},
+				768:{
+					items:2
+				},
+				318:{
+					items:1
+				}
+			},
+			rtl: rtl,
+			margin: 20,
+			nav: false,
+			dots: false,
+			autoplay: false,
+			slideSpeed: 200,
+			loop: true
 		});
 	}
 });

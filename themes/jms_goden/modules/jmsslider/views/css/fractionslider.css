@@ -133,9 +133,3 @@
     vertical-align: super;
     width: 21px;
 }
-@media (max-width: 991px){
-.fraction-slider:hover .prev, .fraction-slider:hover .numbprev,
-.fraction-slider:hover .next, .fraction-slider:hover .numbnext{
-	display:none !important;
-}
-}

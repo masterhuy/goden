@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 06:18:29
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-21 00:26:53
          compiled from "module:ps_shoppingcart/ps_shoppingcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:114045aec3375394fa6-90852216%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:266005b024a8dd4dab3-63496511%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '35655e6409b6198f29dd6e732ef9598dec599880' => 
     array (
       0 => 'module:ps_shoppingcart/ps_shoppingcart.tpl',
-      1 => 1524823819,
+      1 => 1526282240,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '114045aec3375394fa6-90852216',
+  'nocache_hash' => '266005b024a8dd4dab3-63496511',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aec33753cf930_22072710',
+  'unifunc' => 'content_5b024a8dd74bb4_14965406',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aec33753cf930_22072710')) {function content_5aec33753cf930_22072710($_smarty_tpl) {?><div class="btn-group compact-hidden blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count']>0) {?>active<?php } else { ?>inactive<?php }?> dropdown js-dropdown <?php if (isset($_smarty_tpl->tpl_vars['jpb_addtocart']->value)&&$_smarty_tpl->tpl_vars['jpb_addtocart']->value=='ajax_cartbottom') {?>shoppingcart-bottom<?php }?>" id="cart_block" data-refresh-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
+<?php if ($_valid && !is_callable('content_5b024a8dd74bb4_14965406')) {function content_5b024a8dd74bb4_14965406($_smarty_tpl) {?><div class="btn-group compact-hidden blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count']>0) {?>active<?php } else { ?>inactive<?php }?> dropdown js-dropdown <?php if (isset($_smarty_tpl->tpl_vars['jpb_addtocart']->value)&&$_smarty_tpl->tpl_vars['jpb_addtocart']->value=='ajax_cartbottom') {?>shoppingcart-bottom<?php }?>" id="cart_block" data-refresh-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">
 	<a href="#" class="dropdown-toggle cart-icon" data-toggle="dropdown">			
 		<span class="text-box">
@@ -37,7 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </span>
 	</a>
 	<a href="#" class="btn-xs tab-title dropdown-toggle" data-toggle="dropdown">		 
-		<span><span class="box-cart ajax_cart_quantity"> <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['cart']->value['products_count'], ENT_QUOTES, 'UTF-8');?>
+		<span><span class="box-cart ajax_cart_quantity"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['cart']->value['products_count'], ENT_QUOTES, 'UTF-8');?>
 </span> <?php echo smartyTranslate(array('s'=>'item(s) in your cart','mod'=>'blockcart'),$_smarty_tpl);?>
 <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
 	</a>

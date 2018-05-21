@@ -22,41 +22,6 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<script type="text/javascript">
-jQuery(function ($) {
-    "use strict";
-	var categoriesCarousel = $(".categories-carousel2");		
-	var rtl = false;
-	if ($("body").hasClass("rtl")) rtl = true;				
-	categoriesCarousel.owlCarousel({
-		responsiveClass:true,
-		responsive:{			
-			1199:{
-				items:4
-			},
-			991:{
-				items:3
-			},
-			768:{
-				items:2
-			},
-			318:{
-				items:1
-			}
-		},
-		rtl: rtl,
-		margin:30,
-	    nav: true,
-	    dots: false,
-		autoplay: false,
-		loop: true,
-	    rewindNav: false,
-	    navigationText: ["", ""],
-	    slideBy: false,
-	    slideSpeed: 200	
-	});
-});
-</script>
 <div class="home_categories2">
     {if isset($categories) AND $categories}
             <div class="categories-carousel2">
@@ -65,7 +30,7 @@ jQuery(function ($) {
 					<div class="categories-wrapper">
 						<div class="categoy-image">
 							<a href="{$categoryLink nofilter}">
-								<img src="{$img_cat_dir nofilter}{$category.id_category nofilter}.jpg" alt="{$category.name nofilter}" title="{$category.name nofilter}" class="img-responsive"/>
+								<img src="{$img_cat_dir}{$category.id_category}_thumb.jpg" alt="{$category.name nofilter}" title="{$category.name nofilter}" class="img-responsive"/>
 							</a>
 						</div>
 						<div class="category-info">

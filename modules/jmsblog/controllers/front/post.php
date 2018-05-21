@@ -85,7 +85,7 @@ class JmsblogPostModuleFrontController extends ModuleFrontController
             'image_baseurl' => $this->module->getPathUri().'views/img/',
             'module_dir' => _PS_MODULE_DIR_.'jmsblog/views/templates/front/',
 			'use_https' => $use_https,
-			'post_layout' => $post_layout
+			'post_layout' => $post_layout,
         ));
         $this->setTemplate('module:jmsblog/views/templates/front/post.tpl');
     }

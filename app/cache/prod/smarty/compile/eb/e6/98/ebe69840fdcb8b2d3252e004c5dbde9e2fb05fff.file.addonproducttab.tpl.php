@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-06 00:29:09
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-21 00:26:30
          compiled from "D:\xamppp\htdocs\jms_goden\themes\jms_goden\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:198585aee8495bfbe66-51877863%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:277525b024a76219158-91236574%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ebe69840fdcb8b2d3252e004c5dbde9e2fb05fff' => 
     array (
       0 => 'D:\\xamppp\\htdocs\\jms_goden\\themes\\jms_goden\\modules\\jmspagebuilder\\views\\templates\\hook\\addonproducttab.tpl',
-      1 => 1524468243,
+      1 => 1526360395,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '198585aee8495bfbe66-51877863',
+  'nocache_hash' => '277525b024a76219158-91236574',
   'function' => 
   array (
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aee8495d0d5a2_24116716',
+  'unifunc' => 'content_5b024a76296173_22334480',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aee8495d0d5a2_24116716')) {function content_5aee8495d0d5a2_24116716($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b024a76296173_22334480')) {function content_5b024a76296173_22334480($_smarty_tpl) {?>
 <script type="text/javascript">
 var tab_items = <?php if ($_smarty_tpl->tpl_vars['cols']->value) {?><?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['cols']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 <?php } else { ?>4<?php }?>;
@@ -72,7 +72,7 @@ var auto_play_tab = <?php if ($_smarty_tpl->tpl_vars['autoplay']->value==1) {?>t
 	<ul class="nav" role="tablist">
 	<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable(0, null, 0);?>
 		<?php if ($_smarty_tpl->tpl_vars['config']->value['show_new']=='1') {?>
-			<li class="nav-item"><a class="button active"  button" data-toggle="tab" href="#latest"><?php echo smartyTranslate(array('s'=>'New Arrivals','d'=>'Shop.Theme'),$_smarty_tpl);?>
+			<li class="nav-item"><a class="button active button" data-toggle="tab" href="#latest"><?php echo smartyTranslate(array('s'=>'New Arrivals','d'=>'Shop.Theme'),$_smarty_tpl);?>
 </a></li>
 			<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable($_smarty_tpl->tpl_vars['cf']->value+1, null, 0);?>
 		<?php }?>
@@ -81,8 +81,13 @@ var auto_play_tab = <?php if ($_smarty_tpl->tpl_vars['autoplay']->value==1) {?>t
 </a></li>
 			<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable($_smarty_tpl->tpl_vars['cf']->value+1, null, 0);?>
 		<?php }?>
+		<?php if ($_smarty_tpl->tpl_vars['config']->value['show_onsale']=='1') {?>
+			<li class="nav-item"><a class="<?php if ($_smarty_tpl->tpl_vars['cf']->value==0) {?>active<?php }?> button" data-toggle="tab" href="#onsale"><?php echo smartyTranslate(array('s'=>'Sale Off','d'=>'Shop.Theme'),$_smarty_tpl);?>
+</a></li>
+			<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable($_smarty_tpl->tpl_vars['cf']->value+1, null, 0);?>
+		<?php }?>
 		<?php if ($_smarty_tpl->tpl_vars['config']->value['show_featured']=='1') {?>
-			<li class="nav-item"><a class="<?php if ($_smarty_tpl->tpl_vars['cf']->value==0) {?>active<?php }?>  data-toggle="tab" href="#featured"><?php echo smartyTranslate(array('s'=>'Featured','d'=>'Shop.Theme'),$_smarty_tpl);?>
+			<li class="nav-item"><a class="<?php if ($_smarty_tpl->tpl_vars['cf']->value==0) {?>active<?php }?> button" data-toggle="tab" href="#featured"><?php echo smartyTranslate(array('s'=>'Featured','d'=>'Shop.Theme'),$_smarty_tpl);?>
 </a></li>
 		<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable($_smarty_tpl->tpl_vars['cf']->value+1, null, 0);?>
 		<?php }?>			
@@ -91,11 +96,7 @@ var auto_play_tab = <?php if ($_smarty_tpl->tpl_vars['autoplay']->value==1) {?>t
 </a></li>
 			<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable($_smarty_tpl->tpl_vars['cf']->value+1, null, 0);?>
 		<?php }?>			
-		<?php if ($_smarty_tpl->tpl_vars['config']->value['show_onsale']=='1') {?>
-			<li class="nav-item"><a class="<?php if ($_smarty_tpl->tpl_vars['cf']->value==0) {?>active<?php }?> button" data-toggle="tab" href="#onsale"><?php echo smartyTranslate(array('s'=>'Sale Off','d'=>'Shop.Theme'),$_smarty_tpl);?>
-</a></li>
-			<?php $_smarty_tpl->tpl_vars['cf'] = new Smarty_variable($_smarty_tpl->tpl_vars['cf']->value+1, null, 0);?>
-		<?php }?>			
+					
 	</ul>
 </div>
 <div class="tab-content">

@@ -235,9 +235,10 @@ select#jmsskin {
     font-size: 11px;
 	min-width:80px;
 	float: left;
+	border-radius: 0;
 }
 #jmstools .btn-action .btn:hover {
-	background:#000;
+	background:#ee390f;
 	color: #FFF !important;
 }
 .form-content label {
@@ -245,4 +246,9 @@ select#jmsskin {
 }
 .form-content input{
 	float:left;
+}
+@media (max-height: 680px){
+	#jmstools{
+		top: 60px;
+	}
 }

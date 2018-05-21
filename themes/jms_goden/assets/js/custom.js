@@ -4,11 +4,16 @@
  */
  /*fixed menu*/
  jQuery(document).ready(function($) {
-		$('.jms-megamenu').jmsMegaMenu({    			
-			event: jmmm_event,
-			duration: jmmm_duration
-		});	
-});	
+	$('.jms-megamenu').jmsMegaMenu({    			
+		event: jmmm_event,
+		duration: jmmm_duration
+	});	
+	if ($(".product_list").hasClass("products-list-6")){
+		$('#left-column').addClass('hidden');
+		$('#content-wrapper').addClass('fullwidth');
+	};
+});
+
 $('body').on('click', '.ajax-add-to-cart', function (event) {	
 	event.preventDefault();
 	var query = 'id_product=' + $(this).attr('data-id-product') + '&qty='+ $(this).attr('data-minimal-quantity') + '&token=' + $(this).attr('data-token') + '&add=1&action=update';
@@ -54,12 +59,51 @@ function view_as() {
         e.preventDefault()
     })
 }
+$(document).ready(function () {
+ view_as();
+ prestashop.on('updateProductList', function (event) {
+  view_as();
+ });
+});
 jQuery(function ($) {
     "use strict";
     $(".view-grid").addClass('active');
     view_as();
 });
 
+jQuery(function ($) {
+    "use strict";
+	var categoriesCarousel = $(".categories-carousel2");		
+	var rtl = false;
+	if ($("body").hasClass("rtl")) rtl = true;				
+	categoriesCarousel.owlCarousel({
+		responsiveClass:true,
+		responsive:{			
+			1199:{
+				items:4
+			},
+			991:{
+				items:3
+			},
+			768:{
+				items:2
+			},
+			318:{
+				items:1
+			}
+		},
+		rtl: rtl,
+		margin:30,
+	    nav: true,
+	    dots: false,
+		autoplay: false,
+		loop: true,
+	    rewindNav: false,
+	    navigationText: ["", ""],
+	    slideBy: false,
+	    slideSpeed: 200	
+	});
+});
 jQuery(function ($) {
 	"use strict";
 	if($(".customs-carousel-product").length) {

@@ -19,6 +19,10 @@
 	padding-right:0;
 	left: auto;
 }
+.topbar .jms_ajax_search .searchbox::after {
+	right: auto;
+	left: 51px;
+}
 .topbar #ajax_search{
 	right: 440px;
 	left: 0;

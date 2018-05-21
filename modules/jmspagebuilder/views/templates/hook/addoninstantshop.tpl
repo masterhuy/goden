@@ -33,9 +33,9 @@
 <p class="addon-desc">{$addon_desc|escape:'htmlall':'UTF-8'}</p>
 {/if}
 <div class="instant-tabs">
-	<ul class="nav nav-tabs" role="tablist">
+	<ul class="nav-tab" role="tablist">
 		{if $showall}
-		<li class="active"><a class="instant-btn" data-id="0">All</a></li>					
+		<li ><a class="instant-btn" data-id="0">All</a></li>					
 		{/if}
 		{foreach from = $categories key = k item = category}
 			<li {if !$showall && $k ==0}class="active"{/if}><a class="instant-btn" data-id="{$category.id_category|escape:'html':'UTF-8'}">{$category.name|escape:'htmlall':'UTF-8'}</a></li>					
@@ -67,12 +67,13 @@
 		</div>	
 	</div>	
 </div>
-<div class="row" id="instant-products">
+<div id="instant-products" class="instant-products">
 {foreach from = $products item = product}				
-	<div class="item col-sm-6 col-md-{$col_class} col-xs-12">
+	<div class="item">
 		{include file="catalog/_partials/miniatures/product.tpl" product=$product}
 	</div>	
 {/foreach}
+</div>
 <span class="instantshop-loading"></span>
 <div class="instantshop-loadmore">
 {if $loadmore_type == 'infinite'}
@@ -85,7 +86,7 @@
 	var instantshow_limit = {if $limit}{$limit|escape:'htmlall':'UTF-8'}{else}8{/if};
 	var instantshow_load = {if $load}{$load|escape:'htmlall':'UTF-8'}{else}4{/if};	
 </script>
-</div>
+
 <input type="hidden" name="instantshop_id_category" id="instantshop-id-category" value="0" />
 <input type="hidden" name="instantshop_loadmore_type" id="instantshop-loadmore-type" value="{$loadmore_type}" />
 <input type="hidden" name="instantshop_limit" id="instantshop-limit" value="{$limit}" />

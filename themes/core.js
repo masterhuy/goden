@@ -2621,7 +2621,8 @@
 	      (0, _jquery2['default'])('.product-discounts').replaceWith(resp.product_discounts);
 	      (0, _jquery2['default'])('.images-container').replaceWith(resp.product_cover_thumbnails);
 	      (0, _jquery2['default'])('.product-additional-info').replaceWith(resp.product_additional_info);
-	      (0, _jquery2['default'])('#product-details').replaceWith(resp.product_details);
+				(0, _jquery2['default'])('#product-details').replaceWith(resp.product_details);
+				(0, _jquery2['default'])('#product-quantity').replaceWith(resp.product_quantity);
 	
 	      // Replace all "add to cart" sections but the quantity input in order to keep quantity field intact i.e.
 	      // Prevent quantity input from blinking with classic theme.

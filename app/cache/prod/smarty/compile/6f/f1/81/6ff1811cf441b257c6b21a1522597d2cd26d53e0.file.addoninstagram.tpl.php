@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-06 00:29:11
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-21 00:26:19
          compiled from "D:\xamppp\htdocs\jms_goden\themes\jms_goden\modules\jmspagebuilder\views\templates\hook\addoninstagram.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:131555aee8497578482-21637511%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:143025b024a6b13bdd5-52258726%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6ff1811cf441b257c6b21a1522597d2cd26d53e0' => 
     array (
       0 => 'D:\\xamppp\\htdocs\\jms_goden\\themes\\jms_goden\\modules\\jmspagebuilder\\views\\templates\\hook\\addoninstagram.tpl',
-      1 => 1523948722,
+      1 => 1526357682,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '131555aee8497578482-21637511',
+  'nocache_hash' => '143025b024a6b13bdd5-52258726',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aee8497587e82_34842414',
+  'unifunc' => 'content_5b024a6b143ad9_46615794',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aee8497587e82_34842414')) {function content_5aee8497587e82_34842414($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b024a6b143ad9_46615794')) {function content_5b024a6b143ad9_46615794($_smarty_tpl) {?>
 <div class="addon-title">
 	<h3>
 		<?php echo smartyTranslate(array('s'=>'INSTAGRAM','d'=>'Modules.JmsPagebuilder'),$_smarty_tpl);?>
